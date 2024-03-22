@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/p"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/s"
+            android:icon="@drawable/shop"
+            android:title="Store" />
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/cart"
+            android:title="cart" />
+        <item
+            android:id="@+id/vorder"
+            android:icon="@drawable/od"
+            android:title="orders" />
+        <item
+            android:id="@+id/c"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/ch"
+            android:icon="@drawable/chat"
+            android:title="Chat" />
+
+    </group>
+
+    <item android:title="OTHERS">
+        <menu>
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_menu_share"-->
+<!--                android:title="@string/menu_share" />-->
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/lg"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
